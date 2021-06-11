@@ -21,7 +21,7 @@ public class Salarie {
     private String prenom;
 
     @Column(name = "salaire", nullable = true, unique = false, length = 50)
-    private String salaire;
+    private float salaire;
 
     @Column(name = "experience", nullable = true, unique = false, length = 50)
     private int experience;
@@ -54,11 +54,11 @@ public class Salarie {
         this.prenom = prenom;
     }
 
-    public String getSalaire() {
+    public float getSalaire() {
         return salaire;
     }
 
-    public void setSalaire(String salaire) {
+    public void setSalaire(float salaire) {
         this.salaire = salaire;
     }
 

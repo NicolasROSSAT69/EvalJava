@@ -51,4 +51,12 @@ public class Directeur {
     public void setPrenom(String prenom) {
         this.prenom = prenom;
     }
+
+    public Directeur(String nom, String prenom) {
+        this.nom = nom;
+        this.prenom = prenom;
+    }
+    public Directeur() {
+
+    }
 }
