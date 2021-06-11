@@ -28,7 +28,7 @@ public class DirecteurService implements Serializable{
     public void update(Session s, int id)
     {
         Directeur d = s.get(Directeur.class, id);
-        d.setPrenom("Paul");
+        d.setPrenom("Maxime");
         s.update(d); // UPDATE Directeur SET nom = c.getNom(), prenom = c.getPrenom() where id = id;
     }
 
